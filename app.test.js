@@ -1,5 +1,5 @@
 const request = require("supertest"); // required for testing HTTP servers
-const app = require("./index");
+const app = require("./Index");
 
 describe("GET /", () => {
   it("should return 200 OK and Hello World message", async () => {
